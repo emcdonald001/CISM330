@@ -1,0 +1,89 @@
+/*	
+	Student Name: Eric McDonald
+	File Name: styles.css
+	Date: 02/18/2026
+*/
+
+/* CSS Reset */
+ body, header, nav, main, footer, img, h1, h3, figure, figcaption {
+	 margin: 0;
+	 padding: 0;
+	 border: 0;
+ }
+
+ body {
+	background-color: #0b0bde;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-family: Cambria, Arial, serif;
+	padding: 3%;
+	color: #f5be27;
+	text-shadow: 2px 2px #292933
+}
+figcaption {
+	text-align: center;
+	font-size: 3em;
+	font-family: Cambria, Arial, serif;
+	color: #f5be27;
+	text-shadow: 2px 2px #292933
+}
+
+nav {
+	color: #f5be27;
+}
+nav ul {
+	list-style-type: disc;     
+	margin: 0;
+	text-align: center;
+	color: #f5be27;
+}
+nav li {
+	display: inline;
+	font-family: Cambria, Arial, serif;
+	font-weight: bold;
+}
+nav li a{
+	display: inline-block;
+	color: #f5be27;
+	padding: 1em;
+	text-decoration: none;
+}
+
+main {
+	padding: 3%;
+	font-family: Cambria, Arial, serif;
+	overflow: auto;
+}
+main p {
+	font-size: 1.5em;
+}
+main h3 {
+	padding-top: 2%;
+	font-size: 2em;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+footer {
+	text-align: center;
+	font-size: 0.85em;
+	background-color: #0b0bde;
+	font-size: 16px;
+	padding: 1% 0%;
+}
+footer a {
+	font-weight: bold;
+	text-decoration: none;
